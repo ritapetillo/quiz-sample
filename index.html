@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Quiz</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="#" class="logo">QUIZ</a>
+        <div>
+          <span class="responses__bar"></span>
+        </div>
+        <div class="reDo">
+          <i class="fas fa-redo"></i>
+          <span>Try again</span>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div class="main__question-container">
+        <div class="main__question-topBar">
+          <i class="fas fa-arrow-circle-left" id="back"></i>
+          <i class="fas fa-arrow-circle-right" id="next"></i>
+        </div>
+        <div id="question">
+          <h3></h3>
+        </div>
+        <div class="main__question-answers" id="answers"></div>
+      </div>
+    </main>
+    <script src="index.js"></script>
+
+    <script src="questions.js"></script>
+    <script
+      src="https://kit.fontawesome.com/84a612360c.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
